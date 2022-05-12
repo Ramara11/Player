@@ -1,0 +1,28 @@
+.root {
+    -fx-background-color: linear-gradient(from 25% 25% to 100% 100%, #cf5408 ,#695a32);
+}
+#bar{
+    -fx-border-radius:25px;
+    -fx-border-width:5px;
+    -fx-border-color:linear-gradient(from 25% 25% to 100% 100%, grey,#000000);
+    -fx-background-origin: border-box;
+    -fx-background-clip: content-box,border-box;
+     -fx-padding-top:10px;
+}
+
+#player-controls {
+    -fx-padding: 10px;
+}
+
+.label {
+    -fx-font-size: 20px;
+    -fx-text-fill: #EEEEEE;
+    -fx-cursor: hand;
+}
+#exit {
+    -fx-padding: 1px;
+    -fx-border-width: 1px;
+    -fx-border-color: #E57373;
+    -fx-border-radius: 10px;
+}
+
